@@ -1,0 +1,10 @@
+// VARIABLES
+$banner-font-color: 			#fff;
+$banner-height:					90vh;
+
+
+
+@import "_mixins/_mixins";
+
+@import "_partials/_banner",
+		"_partials/_layout";

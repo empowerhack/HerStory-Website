@@ -1,0 +1,39 @@
+.no-padding {
+	padding: 0;
+}
+
+.position {
+    display: block;
+    float: none;
+
+    &.central {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.section {
+	border: 1px solid black;
+	overflow: hidden;
+	
+	&.first {
+		margin-top: $banner-height;
+	}
+
+	h2 {
+		text-align: center;
+	}
+}
+
+.boxes {
+	// display: flex;
+
+	@media (max-width: 768px) {
+    	display: block;
+  	}
+
+  	.box {
+  		text-align: center;
+  		padding: 30px;
+  	}
+}
