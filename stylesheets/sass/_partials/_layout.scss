@@ -15,6 +15,7 @@
 .section {
 	border: 1px solid black;
 	overflow: hidden;
+	padding: 30px 0;
 	
 	&.first {
 		margin-top: $banner-height;
