@@ -1,5 +1,8 @@
 // VARIABLES
 $banner-font-color: 			#fff;
+$body-bg:						#EDE8ED;
+$heading-color:					#9585A3;
+
 $banner-height:					90vh;
 
 
@@ -7,4 +10,6 @@ $banner-height:					90vh;
 @import "_mixins/_mixins";
 
 @import "_partials/_banner",
-		"_partials/_layout";
+		"_partials/_layout",
+		"_partials/_generic",
+		"_partials/_text";
