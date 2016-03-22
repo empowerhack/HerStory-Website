@@ -7,13 +7,18 @@ $banner-font-color: 			#fff;
 $body-bg:						#EDE8ED;
 $heading-color:					#9585A3;
 
+$empowerhack-pink:				#ef0063;
+$brand-dark:					#002B1F;
+
+// SIZES
 $banner-height:					90vh;
 
 
 
 @import "_mixins/_mixins";
 
-@import "_partials/_banner",
+@import
 		"_partials/_layout",
 		"_partials/_generic",
-		"_partials/_text";
+		"_partials/_text",
+		"_partials/_parallax";

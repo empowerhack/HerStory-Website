@@ -1,29 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300&subset=latin,latin-ext);
-.banner {
-  background-size: cover;
-  background-image: url("../../images/banner-face.jpg");
-  height: 90vh;
-  position: absolute;
-  text-align: center;
-  color: #fff;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-  z-index: 0; }
-  .banner .text {
-    position: relative;
-    top: 40%;
-    -webkit-transform: translateY(-40%);
-    -ms-transform: translateY(-40%);
-    transform: translateY(-40%); }
-  .banner span.smaller {
-    display: block;
-    font-size: 16px;
-    font-weight: 200;
-    margin: 15px 0; }
-  .banner h1 {
-    font-size: 76px;
-    margin-bottom: 30px;
-    color: #fff; }
-
 .no-padding {
   padding: 0; }
 
@@ -73,5 +48,74 @@ h1, h2, h3, h4, h5 {
 
 .intro {
   font-size: 1.2em; }
+
+span.smaller {
+  display: block;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 15px 0; }
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  transform-style: preserve-3d; }
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit; }
+  .slide:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .slide:nth-child(2n) .title {
+    margin-left: 0;
+    margin-right: auto; }
+  .slide:nth-child(2n+1) .title {
+    margin-left: auto;
+    margin-right: 0; }
+
+.slide, .slide:before {
+  background: 50% 50% / cover; }
+
+#banner {
+  background-size: cover;
+  background-image: url("../../images/banner-face.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); }
+
+#empowerhack {
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); }
+  #empowerhack:before {
+    background-color: #ef0063;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed; }
+
+#challenges {
+  background-image: url("../../images/challenges.jpg");
+  background-attachment: fixed; }
+
+#resources:before {
+  background-image: url("../../images/resources.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index: -1; }
+
+#future {
+  background-image: url("../../images/volunteering.jpg");
+  background-attachment: fixed; }
 
 /*# sourceMappingURL=main.css.map */
