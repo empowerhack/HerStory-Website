@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300&subset=latin,latin-ext);
 .banner {
   background-size: cover;
   background-image: url("../../images/banner-face.jpg");
@@ -20,7 +21,8 @@
     margin: 15px 0; }
   .banner h1 {
     font-size: 76px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    color: #fff; }
 
 .no-padding {
   padding: 0; }
@@ -65,8 +67,11 @@
 body {
   background-color: #EDE8ED; }
 
-h2, h3, h4, h5 {
-  color: #9585A3;
-  text-align: center; }
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-family: "Oswald", sans-serif; }
+
+.intro {
+  font-size: 1.2em; }
 
 /*# sourceMappingURL=main.css.map */

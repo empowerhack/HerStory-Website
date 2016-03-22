@@ -1,4 +1,11 @@
-h2, h3, h4, h5 {
-	color: $heading-color;
+
+
+h1, h2, h3, h4, h5 {
+	// color: $heading-color;
 	text-align: center;
+	font-family: $header-font;
+}
+
+.intro {
+	font-size: 1.2em;
 }
