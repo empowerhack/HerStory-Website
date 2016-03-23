@@ -61,11 +61,10 @@
 }
 
 #empowerhack:before {
-	background-color: $empowerhack-pink;
+	background-image: url("../../images/empowerhack.jpg");
 	transform: translateZ(-1px) scale(2);
 	z-index: -1;
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 #challenges {
