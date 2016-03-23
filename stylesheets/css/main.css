@@ -43,7 +43,8 @@ body {
   background-color: #EDE8ED; }
 
 body {
-  font-family: "Droid Sans", sans-serif; }
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1.2em; }
 
 h1, h2, h3, h4, h5 {
   text-align: center;
