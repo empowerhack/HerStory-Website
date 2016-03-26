@@ -6,6 +6,7 @@ body {
 h1, h2, h3, h4, h5 {
 	text-align: center;
 	font-family: $header-font;
+	margin: 50px 0;
 }
 
 .intro {
@@ -24,5 +25,6 @@ span.smaller {
 	h1 {
 		font-size: 10em;
 		color: $empowerhack-pink;
+		font-weight: 400;
 	}
 }
