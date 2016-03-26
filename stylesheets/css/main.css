@@ -66,6 +66,13 @@ span.smaller {
   color: #ef0063;
   font-weight: 400; }
 
+.icon {
+  text-align: center; }
+  .icon h3 {
+    margin-top: 25px; }
+  .icon i {
+    font-size: 3em; }
+
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -91,15 +98,26 @@ span.smaller {
     bottom: 0;
     left: 0;
     right: 0; }
-  .slide:nth-child(2n) .title {
+  .slide.title .left {
     margin-left: 0;
     margin-right: auto; }
-  .slide:nth-child(2n+1) .title {
+  .slide.title .right {
     margin-left: auto;
     margin-right: 0; }
 
 .slide, .slide:before {
   background: 50% 50% / cover; }
+
+.title {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2%;
+  border-radius: 5px;
+  background: rgba(240, 230, 220, 0.7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+  color: #000;
+  text-shadow: none;
+  overflow: auto; }
 
 #banner {
   background-size: cover;
