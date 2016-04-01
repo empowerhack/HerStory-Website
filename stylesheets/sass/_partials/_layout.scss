@@ -39,8 +39,12 @@
   	}
 
   	.box {
+  		border: 1px solid $empowerhack-pink;
   		text-align: center;
   		padding: 30px;
+  		margin: 10px;
+  		@include border-radius(5px);
+  		background-color: rgba(0,0,0, .4);
   	}
 }
 

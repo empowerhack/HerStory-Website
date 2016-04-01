@@ -9,6 +9,15 @@ h1, h2, h3, h4, h5 {
 	margin: 40px 0;
 }
 
+a {
+	color: #fff;
+	text-decoration: underline;
+
+	&:hover {
+		color: $empowerhack-pink;
+	}
+}
+
 .intro {
 	font-size: 1.2em;
 }

@@ -1,0 +1,18 @@
+.btn {
+	@include border-radius(5px);
+	color: #fff;
+	padding: 15px 50px;
+	border: 1px solid #fff;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.1);
+	margin: 20px 0;
+	display: inline-block;
+	min-width: 30%;
+	text-decoration: none;
+
+	&:hover {
+		background-color: rgba(255, 255, 255, 0.3);
+		text-decoration: underline;
+		color: #fff;
+	}
+}
