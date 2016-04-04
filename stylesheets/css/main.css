@@ -46,6 +46,9 @@
     color: #fff;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); }
 
+.col {
+  z-index: 100; }
+
 .btn {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -154,7 +157,8 @@ span.smaller {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
   color: #000;
   text-shadow: none;
-  overflow: auto; }
+  overflow: auto;
+  z-index: -10; }
 
 #banner {
   background-size: cover;
