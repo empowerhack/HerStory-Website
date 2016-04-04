@@ -87,14 +87,22 @@ a {
     color: #ef0063; }
 
 .intro {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  display: none; }
+
+#pg-title {
+  top: 20;
+  display: none; }
 
 span.smaller {
   display: block;
   font-size: .3em;
   font-weight: 200;
   margin: 15px 0;
-  color: #fff; }
+  color: #fff;
+  position: relative;
+  opacity: .1;
+  padding-bottom: 20px; }
 
 #banner h1 {
   font-size: 10em;

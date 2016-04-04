@@ -20,6 +20,12 @@ a {
 
 .intro {
 	font-size: 1.2em;
+	display: none;
+}
+
+#pg-title {
+	top: 20;
+	display: none;
 }
 
 span.smaller {
@@ -28,6 +34,9 @@ span.smaller {
 	font-weight: 200;
 	margin: 15px 0;
 	color: #fff;
+	position: relative;
+	opacity: .1;
+	padding-bottom: 20px;
 }
 
 #banner {
