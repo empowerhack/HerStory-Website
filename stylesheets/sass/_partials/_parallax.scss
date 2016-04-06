@@ -40,7 +40,8 @@
 }
 
 .slide, .slide:before {
-	background: 50% 50% / cover;
+	// background: 50% 50% / cover;
+	background-size: cover;
 }
 
 .title {
@@ -75,6 +76,7 @@
 #challenges {
 	background-image: url('../../images/challenges.jpg');
 	background-attachment: fixed;
+	z-index: 10;
 }
 
 #resources:before {
