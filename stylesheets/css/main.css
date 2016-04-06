@@ -154,7 +154,7 @@ span.smaller {
     margin-right: 0; }
 
 .slide, .slide:before {
-  background: 50% 50% / cover; }
+  background-size: cover; }
 
 .title {
   width: 80%;
@@ -184,7 +184,8 @@ span.smaller {
 
 #challenges {
   background-image: url("../../images/challenges.jpg");
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  z-index: 10; }
 
 #resources:before {
   background-image: url("../../images/resources.jpg");
